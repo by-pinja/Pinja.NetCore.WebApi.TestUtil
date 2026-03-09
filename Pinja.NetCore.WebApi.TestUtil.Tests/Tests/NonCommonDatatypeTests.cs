@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests.Tests
+namespace Pinja.NetCore.WebApi.TestUtil.Tests.Tests
 {
     public class NonCommonDatatypeTests
     {

@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Protacon.NetCore.WebApi.TestUtil
+namespace Pinja.NetCore.WebApi.TestUtil
 {
     // HttpResponse is wrapped because we don't want add extension methods
     // to HttpResponseMessage directly because

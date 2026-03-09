@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace Protacon.NetCore.WebApi.TestUtil
+namespace Pinja.NetCore.WebApi.TestUtil
 {
     public class ExpectedStatusCodeException : Exception
     {

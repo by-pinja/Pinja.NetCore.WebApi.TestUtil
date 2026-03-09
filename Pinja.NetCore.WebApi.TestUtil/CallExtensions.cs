@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Protacon.NetCore.WebApi.TestUtil
+namespace Pinja.NetCore.WebApi.TestUtil
 {
     public static class CallExtensions
     {

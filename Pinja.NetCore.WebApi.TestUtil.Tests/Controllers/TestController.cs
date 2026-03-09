@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.IO;
 using Microsoft.AspNetCore.Mvc;
-using Protacon.NetCore.WebApi.TestUtil.Tests.Dummy;
+using Pinja.NetCore.WebApi.TestUtil.Tests.Dummy;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests.Controllers
+namespace Pinja.NetCore.WebApi.TestUtil.Tests.Controllers
 {
     public class TestController: Controller
     {

@@ -1,4 +1,4 @@
-﻿namespace Protacon.NetCore.WebApi.TestUtil.Tests.Dummy
+namespace Pinja.NetCore.WebApi.TestUtil.Tests.Dummy
 {
     public class DummyRequest
     {

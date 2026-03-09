@@ -1,6 +1,6 @@
 # Test utilities for Net Core web api
 
-[![Nuget](https://img.shields.io/nuget/dt/Protacon.NetCore.WebApi.TestUtil.svg)](https://www.nuget.org/packages/Protacon.NetCore.WebApi.TestUtil/)
+[![Nuget](https://img.shields.io/nuget/dt/Pinja.NetCore.WebApi.TestUtil.svg)](https://www.nuget.org/packages/Pinja.NetCore.WebApi.TestUtil/)
 
 This is lightweight wrapper and collection of useful tools to work with .Net Core isolated test host.
 

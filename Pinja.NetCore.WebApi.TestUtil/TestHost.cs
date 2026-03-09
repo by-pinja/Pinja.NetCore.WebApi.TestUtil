@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Options;
 
-namespace Protacon.NetCore.WebApi.TestUtil
+namespace Pinja.NetCore.WebApi.TestUtil
 {
     public static class TestHost
     {

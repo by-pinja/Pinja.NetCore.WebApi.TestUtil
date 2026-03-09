@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Protacon.NetCore.WebApi.TestUtil
+namespace Pinja.NetCore.WebApi.TestUtil
 {
     public static class CallDataExtensions
     {

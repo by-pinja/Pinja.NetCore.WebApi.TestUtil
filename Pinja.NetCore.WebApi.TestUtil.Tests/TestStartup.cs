@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
-using Protacon.NetCore.WebApi.TestUtil.Tests.Dummy;
+using Pinja.NetCore.WebApi.TestUtil.Tests.Dummy;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests
+namespace Pinja.NetCore.WebApi.TestUtil.Tests
 {
     public class TestStartup
     {

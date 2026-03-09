@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Protacon.NetCore.WebApi.TestUtil.Extensions;
+using Pinja.NetCore.WebApi.TestUtil.Extensions;
 using Xunit;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests
+namespace Pinja.NetCore.WebApi.TestUtil.Tests
 {
     public class WaitForContentTests
     {

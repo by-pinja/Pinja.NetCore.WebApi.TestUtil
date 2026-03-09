@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests.Dummy
+namespace Pinja.NetCore.WebApi.TestUtil.Tests.Dummy
 {
     public class ExternalDepency : IExternalDepency
     {

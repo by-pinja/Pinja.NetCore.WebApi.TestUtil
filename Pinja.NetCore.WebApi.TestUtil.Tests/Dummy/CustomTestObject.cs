@@ -1,4 +1,4 @@
-namespace Protacon.NetCore.WebApi.TestUtil.Tests
+namespace Pinja.NetCore.WebApi.TestUtil.Tests
 {
     public class CustomTestObject
     {

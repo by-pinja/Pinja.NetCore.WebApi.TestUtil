@@ -2,7 +2,7 @@ using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Tests
+namespace Pinja.NetCore.WebApi.TestUtil.Tests
 {
     public class CustomTestObjectConverter : JsonConverter<CustomTestObject>
     {

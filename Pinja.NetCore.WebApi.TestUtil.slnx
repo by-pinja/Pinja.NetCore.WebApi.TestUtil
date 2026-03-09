@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Pinja.NetCore.WebApi.TestUtil.Tests/Pinja.NetCore.WebApi.TestUtil.Tests.csproj" />
+  <Project Path="Pinja.NetCore.WebApi.TestUtil/Pinja.NetCore.WebApi.TestUtil.csproj" />
+</Solution>

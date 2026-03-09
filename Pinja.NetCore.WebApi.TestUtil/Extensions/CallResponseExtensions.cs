@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Protacon.NetCore.WebApi.TestUtil.Extensions
+namespace Pinja.NetCore.WebApi.TestUtil.Extensions
 {
     public static class CallResponseExtensions
     {
