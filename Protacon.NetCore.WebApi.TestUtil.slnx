@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Protacon.NetCore.WebApi.TestUtil.Tests/Protacon.NetCore.WebApi.TestUtil.Tests.csproj" />
+  <Project Path="Protacon.NetCore.WebApi.TestUtil/Protacon.NetCore.WebApi.TestUtil.csproj" />
+</Solution>
