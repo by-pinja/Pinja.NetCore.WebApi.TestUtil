@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using FluentAssertions;
+using AwesomeAssertions;
 using Xunit;
 
 namespace Pinja.NetCore.WebApi.TestUtil.Tests.Tests

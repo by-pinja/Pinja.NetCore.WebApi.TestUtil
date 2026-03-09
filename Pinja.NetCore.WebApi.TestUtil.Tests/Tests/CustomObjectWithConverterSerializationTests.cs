@@ -1,6 +1,6 @@
 using System.Net;
 using System.Threading.Tasks;
-using FluentAssertions;
+using AwesomeAssertions;
 using Pinja.NetCore.WebApi.TestUtil.Tests.Dummy;
 using Xunit;
 

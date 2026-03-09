@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using FluentAssertions;
+using AwesomeAssertions;
 using Pinja.NetCore.WebApi.TestUtil.Extensions;
 using Xunit;
 
