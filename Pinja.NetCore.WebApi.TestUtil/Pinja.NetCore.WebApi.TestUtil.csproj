@@ -3,7 +3,27 @@
   <PropertyGroup>
     <TargetFrameworks>net10.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
+    
+    <PackageId>Pinja.NetCore.WebApi.TestUtil</PackageId>
+    <Title>Test utilities for .NET Core Web API</Title>
+    <Description>Lightweight wrapper and collection of useful tools to work with .NET Core isolated test host.</Description>
+    <Authors>Pinja</Authors>
+    <Company>Pinja</Company>
+    <Product>Pinja.NetCore.WebApi.TestUtil</Product>
+    <Copyright>Copyright (c) Pinja</Copyright>
+    <PackageProjectUrl>https://github.com/by-pinja/Pinja.NetCore.WebApi.TestUtil</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/by-pinja/Pinja.NetCore.WebApi.TestUtil</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>testing;webapi;netcore;testhost</PackageTags>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\Readme.md" Pack="true" PackagePath="\" />
+    <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.3" />
