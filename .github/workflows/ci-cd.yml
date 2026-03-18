@@ -1,0 +1,44 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['*']
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build-test-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test Pinja.NetCore.WebApi.TestUtil.Tests --configuration Release --no-build
+
+      - name: Pack (preview)
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: dotnet pack Pinja.NetCore.WebApi.TestUtil --configuration Release --no-build -p:PackageVersion=0.0.0-preview.${{ github.run_number }} --output nupkgs
+
+      - name: Pack (release)
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          dotnet pack Pinja.NetCore.WebApi.TestUtil --configuration Release --no-build -p:PackageVersion=$VERSION --output nupkgs
+
+      - name: Push to NuGet
+        if: startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
