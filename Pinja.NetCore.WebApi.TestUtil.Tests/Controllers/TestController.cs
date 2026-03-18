@@ -105,6 +105,12 @@ namespace Pinja.NetCore.WebApi.TestUtil.Tests.Controllers
             return Ok(value);
         }
 
+        [HttpPost("/datetimetestroute/")]
+        public IActionResult GetTestRoute([FromBody] DummyRequest request)
+        {
+            return Ok(request);
+        }
+
         public class PatchRequest
         {
             public int? TestPatchValue { get; set; }
